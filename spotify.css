@@ -1,0 +1,276 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 950px;
+    width: 100%;
+}
+
+#main {
+    display: flex;
+}
+
+
+#upperleft {
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #121212;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+#lowerleft {
+    background-color: #121212;
+    margin-left: 10px;
+    height: 770px;
+    border-radius: 8px;
+}
+
+#rightpanel {
+    height: 930px;
+    width: 75%;
+    background-color: #121212;
+    margin-left: 13px;
+    margin-top: 10px;
+    border-radius: 8px;
+
+}
+
+#leftpanel {
+    background-color: black;
+    height: 930px;
+    width: 25%;
+}
+
+#upperleft img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#lowerleft img {
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+#lowerleft div {
+    width: 95%;
+    height: 140px;
+    background-color: #242323;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#lowerleft1 {
+    margin-top: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+}
+
+#lowerleft1 p {
+    margin: 15px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+#lowerleft2 p {
+    margin: 15px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+#lowerleft2 button {
+    border-radius: 33px;
+    font-size: 14px;
+    padding: 7px 26px;
+    font-weight: bold;
+}
+
+#lowerleft1 button {
+    border-radius: 33px;
+    font-size: 14px;
+    padding: 7px 26px;
+    font-weight: bold;
+}
+
+#lowerleft2 {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+}
+
+#mainul {
+    list-style-type: none;
+}
+
+#ul1 {
+    list-style-type: none;
+    display: flex;
+    margin-left: -50px;
+    margin-top: 200px;
+}
+
+#ul2 {
+    list-style-type: none;
+    display: flex;
+    margin-left: -50px;
+}
+
+#leftpanel ul li {
+    color: #656565;
+    font-family: "Inter", sans-serif;
+}
+
+#ul1 li {
+    margin: 7px;
+    font-size: 12px;
+}
+
+#ul2 li {
+    margin: 7px;
+    font-size: 12px;
+}
+
+#ind {
+    margin-top: 7px;
+    margin-left: -3px;
+}
+
+
+#rightpanel ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rightpanel ul li {
+    list-style-type: none;
+}
+
+#rightpanel ul li img {
+    opacity: 0.6;
+    opacity: 0.6;
+    margin: 0 530px 0 0;
+}
+
+#rightpanel ul li p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 0px 22px 0 510px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#rightpanel ul li button {
+    padding: 10px 25px;
+    font-family: "Inter", sans-serif;
+    margin: 0 20px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+hr {
+    border-top: 4px solid black;
+    height: 0.1px;
+}
+
+.rightpanel p {
+    display: inline-block;
+}
+
+.left {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    margin-left: 20px;
+}
+
+.right {
+    color: white;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.para {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.popart {
+    display: flex;
+    align-items: center;
+}
+
+.popart div {
+    height: 250px;
+    width: 200px;
+    background-color: #121212;
+    margin: 17px;
+}
+
+.popart div img {
+    width: 210px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.popart div p {
+    font-family: "Inter", sans-serif;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.art {
+    color: white;
+}
+
+.differentc {
+    color: rgb(145, 145, 145);
+}
+
+.popalbum {
+    display: flex;
+    align-items: center;
+}
+
+.popalbum div {
+    height: 250px;
+    width: 200px;
+    background-color: #121212;
+    margin: 17px;
+}
+
+.popalbum div img {
+    width: 210px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.popalbum div p {
+    font-family: "Inter", sans-serif;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.art {
+    color: white;
+}
+
+.differentc {
+    color: rgb(145, 145, 145);
+}
